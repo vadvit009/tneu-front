@@ -1,0 +1,62 @@
+.container {
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+}
+
+.options {
+    width: 25%;
+}
+
+.text_view {
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.btn {
+    margin: 20px 0;
+    background-color: limegreen;
+    border: 0;
+    padding: 10px 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    width: 100%;
+}
+
+.img_view {
+    width: 100px;
+}
+
+.title_input {
+    width: 90%;
+    padding: 10px;
+}
+
+.table_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.tabs {
+    background-color: #ff0e0e;
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabs_active {
+    background-color: limegreen;
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}

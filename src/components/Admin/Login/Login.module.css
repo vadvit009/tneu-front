@@ -1,0 +1,25 @@
+.container {
+    background-color: #24b1a3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.submit {
+    width: 100%;
+}
+
+.submit > button {
+    width: inherit;
+    background-color: #000;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.wrapper > input{
+    padding: 10px;
+    margin-bottom: 20px;
+}

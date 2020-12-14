@@ -1,0 +1,53 @@
+.main_title {
+    text-align: center;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.photo {
+    width: 35%;
+    object-fit: cover;
+}
+
+.text {
+    width: 65%;
+    padding: 0 10px;
+}
+
+.name {
+    color: black;
+}
+
+.fio {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.left_text {
+    text-align: left;
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .person {
+        flex-direction: column;
+    }
+
+    .name > img {
+        /*width: 100%;*/
+        /*object-fit: cover;*/
+    }
+}

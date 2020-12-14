@@ -1,0 +1,56 @@
+.burger_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #fff;
+    overflow-y: hidden;
+    z-index: 9;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    margin: 0;
+    background: #4d2d72;
+    padding: 15px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+.list_container {
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px 25px;
+    background: #4d2d72;
+}
+
+.link, .link_container, .link_p_last {
+    text-decoration: none;
+    color: white;
+}
+
+.menu h3 {
+    padding: 10px;
+    border-bottom: 1px solid #696969;
+}
+
+.home {
+    position: relative;
+    top: 4px;
+    right: 4px;
+}
+
+.link_p_last {
+    margin-bottom: 0;
+}
+
+.link_container {
+    margin-top: 0;
+}

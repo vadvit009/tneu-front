@@ -1,0 +1,13 @@
+.footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background: #6d3a95;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+}
